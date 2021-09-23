@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <form action="results.html" method="GET">
+      <fieldset>
+      <legend>USER FORM</legend>
+      <div>
+          <label for="name">First Name</label>
+          <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+          <label>
+            Password
+          <input type="password" name="password" required>
+          </label>
+      </div>
+      <div>
+              <label>Gender</label>
+              <label><input type="radio" name="gender" id="Male" value="male" /> Male</label>
+              <label><input type="radio" name="gender" id="Female" value="female" /> Female</label>
+      </div>
+      <div>
+      <label>Address</label>
+      <textarea name="address"></textarea>
+      </div>
+      <div>
+          <label for="date">D.O.B</label>
+          <input type="date" name="date" id="date">
+      </div>
+      <div>
+          <label>SELECT GAMES</label>
+          <label><input type="checkbox" name="hockey" id="hockey"> Hockey</label>
+          <label><input type="checkbox" name="football" id="football"> Football</label>
+          <label><input type="checkbox" name="cricket" id="cricket"> Cricket</label>
+          <label><input type="checkbox" name="volleyball" id="volleyball"> volleyball</label>
+      </div>
+      <div>
+        <label>Martial Status</label>
+        <label><input type="radio" name="status" id="Married" value="Married" /> Married</label>
+        <label><input type="radio" name="status" id="Unmarried" value="Unmarried" /> Unmarried</label>
+      </div>
+      </div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+      </fieldset>
+  </form>  
+</body>
+</html>
